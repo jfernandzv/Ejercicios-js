@@ -12,5 +12,4 @@ for (let valor of notas) {
     suma2 += valor;
 } 
 
-//alert ("Suma 2 = " + suma2)
 alert (`Suma 1 = ${suma1}\nSuma 2 = ${suma2}`)
