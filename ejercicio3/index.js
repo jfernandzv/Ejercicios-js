@@ -6,3 +6,12 @@ console.log(`La resta de ${data[1]} - ${data[2]} es ${data[1] - data[2]}`)
 console.log(`El producto de ${data[1]} * ${data[2]} es ${data[1] * data[2]}`)
 console.log(`La división de ${data[1]} / ${data[2]} es ${data[1] / data[2]}`)
 console.log(`El resto de ${data[2]} / ${data[1]} es ${data[2] % data[1]}`)
+
+//utilizando ifs
+if (data[1]>data[2]) {
+    console.log(data[1],"es el número mayor" )
+} else if (data[2]>data[1]) {
+    console.log(data[2],"es el número mayor" )
+} else {
+    console.log("Los dos números son iguales")
+}
