@@ -1,9 +1,9 @@
 function chekNumber(numero) {
-    let salida = ""
+    let salida = "";
     if (numero%2 === 0) {
-        salida = "Número par"
+        salida = "Número par";
     } else {
-        salida = "Número impar"
+        salida = "Número impar";
     }
-    return salida
+    return salida;
 }
